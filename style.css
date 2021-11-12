@@ -1,0 +1,29 @@
+html, body, #app {
+    height: 100%;
+    margin: 0;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.line input{
+    width: 450px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin: 10px;
+    background: grey;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+}
